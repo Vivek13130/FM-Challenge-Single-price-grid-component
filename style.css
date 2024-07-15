@@ -27,6 +27,9 @@ body{
       min-height: 100vh;
       width: 100vw;
       padding: 1rem;
+      padding-block: 3rem;
+
+      position: relative;
 }
 
 main{
@@ -190,9 +193,10 @@ main>div{
 
 .attribution{
       position: absolute;
-      bottom: 0.5rem;
+      bottom: 1rem;
       left: 50%;
       transform: translateX(-50%);
+      text-align: center;
 }
 
 .attribution a{
